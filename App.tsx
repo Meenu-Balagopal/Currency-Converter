@@ -13,7 +13,7 @@ const App = () => {
 
       <View>
         <Text>Amount</Text>
-        <TextInput placeholder="Enter the Amount" style={{}} />
+        <TextInput style={styles.amount} placeholder="Enter the Amount" />
         <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
           <View>
             <Text>From</Text>
