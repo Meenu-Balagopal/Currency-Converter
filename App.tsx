@@ -1,4 +1,4 @@
-import {View, Text, TextInput, StyleSheet} from 'react-native';
+import {View, Text, TextInput, Button, StyleSheet} from 'react-native';
 import React, {useState} from 'react';
 import {Picker} from '@react-native-picker/picker';
 
@@ -56,6 +56,13 @@ const App = () => {
             </View>
           </View>
         </View>
+      </View>
+      <View style={{marginTop: 50}}>
+        <Button
+          title="Convert"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
       </View>
     </View>
   );
